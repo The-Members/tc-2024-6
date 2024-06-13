@@ -1,6 +1,6 @@
 # Descrição do Projeto
 
-Desenvolver uma API em Laravel para processar pagamentos de forma assíncrona. A API deve receber os dados do valor do pagamento, a forma de pagamento, o CPF do comprador e o ID do produto. Cada método de pagamento será processado por um provedor diferente, e o processamento deve ser realizado de forma assíncrona para garantir a escalabilidade e a eficiência do sistema.
+Desenvolver uma API em Laravel 11 para processar pagamentos de forma assíncrona. A API deve receber os dados do valor do pagamento, a forma de pagamento, o CPF do comprador e o ID do produto. Cada método de pagamento será processado por um provedor diferente, e o processamento deve ser realizado de forma assíncrona para garantir a escalabilidade e a eficiência do sistema.
 
 # Requisitos da API
 
@@ -51,4 +51,12 @@ Exemplo de Resposta:
 ```
 
 ## Notificação de Status:
-    Uma vez que o processamento do pagamento seja concluído, o status (sucesso ou falha) deve ser atualizado e, opcionalmente, o cliente pode ser notificado via e-mail ou outra forma de comunicação.
+Uma vez que o processamento do pagamento seja concluído, o status (sucesso ou falha) deve ser atualizado e, opcionalmente, o cliente pode ser notificado via e-mail ou outra forma de comunicação.
+
+
+
+# Envio
+
+O link do repositor deve ser enviado para os emails: 
+
+    lucas.cardial@themembers.com.br danilo@themembers.com.br david@themembers.com.br
