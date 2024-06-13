@@ -34,10 +34,12 @@ A API deve validar os dados recebidos, garantindo que o amount seja um valor pos
 O processamento do pagamento deve ser realizado de forma assíncrona, para evitar bloqueios e melhorar a performance do sistema.
 
 ### Provedores de Pagamento:
+
 Cada método de pagamento ('boleto', 'pix', 'credit_card') deve ser processado por um provedor diferente.
-    Boleto: Provedor A
-    Pix: Provedor B
-    Cartão de Crédito: Provedor C
+-    Boleto: Provedor A
+-    Pix: Provedor B
+-    Cartão de Crédito: Provedor C
+  
 A escolha do provedor deve ser configurável para facilitar mudanças futuras. Os nomes dos provedores são opcionais, sinta-se livre para nomeá-los.
 
 ### Resposta da API:
